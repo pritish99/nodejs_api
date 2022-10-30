@@ -45,7 +45,7 @@ router.delete("/data/:ID",deleteData); //delete data based on unique ID
 
 
 
-
+//starting server
 app.listen(PORT, async () => {
   console.log(`server up on port ${PORT}`);
 });

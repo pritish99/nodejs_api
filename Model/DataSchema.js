@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); //loading mongoose model
 
+//defining Schema for data
 const DataSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -15,4 +16,5 @@ const DataSchema = new mongoose.Schema({
   },
 });
 
+//exporting schema to MongoDB
 module.exports = mongoose.model("DataSchema", DataSchema);
