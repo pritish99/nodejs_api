@@ -21,7 +21,7 @@ The body must consist of the following fields<br>
 <li>summary</li>
 </ul>
 
-<b>Method : POST<b>
+<b>Method : POST<b><br>
 <b>URL : http://localhost:8000/<b>
 
 # Read
@@ -33,7 +33,7 @@ The response body will consist of the following fields<br>
 <li>summary</li>
 </ul>
 
-<b>Method : POST<b>
+<b>Method : POST<b><br>
 <b>URL : http://localhost:8000/data/<b><br>
 <b>URL : http://localhost:8000/data/:name<b>
 
@@ -42,13 +42,13 @@ Using the UPDATE Method, the API can update the data stored in the database base
 The body must consist of the following fields where if the field is to be updated, then the updated data should be entered in the field, 
 else the old data should be kept untouched<br>
 
-<b>Method : PUT<b>
+<b>Method : PUT<b><br>
 <b>URL : http://localhost:8000/data/:ID<b>
 
 
 # Delete
 Using the DELETE Method, the API can delete the data stored in the database based on the unique id passed as the parameter.<br>
 
-<b>Method : DELETE<b>
+<b>Method : DELETE<b><br>
 <b>URL : http://localhost:8000/data/:ID<b>
 
