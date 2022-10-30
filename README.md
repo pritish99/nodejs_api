@@ -1,7 +1,7 @@
 # Node JS CRUD API
 The NodeJS application provides an API for performing CRUD operations on a MongoDB database
-The MongoDB Database is based on MongoDB Cloud.
-The URL for the database is stored inside the .env file which is used by Mongoose package for connecting to the database.
+The MongoDB Database is based on MongoDB Cloud.<br>
+The URL for the database is stored inside the .env file which is used by Mongoose package for connecting to the database. The user must sign up in MongoDB Cloud and obtain the URL which must be replaced in the .env file in order to connect to the database.
 
 # Data Model
 The data model is of the following format.<br>
