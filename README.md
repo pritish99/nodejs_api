@@ -34,7 +34,7 @@ The response body will consist of the following fields<br>
 </ul>
 
 <b>Method : POST<b>
-<b>URL : http://localhost:8000/data/<b>
+<b>URL : http://localhost:8000/data/<b><br>
 <b>URL : http://localhost:8000/data/:name<b>
 
 # Update
